@@ -11,7 +11,7 @@ public class QuickSort {
 		this.array = inputArr;
 		length = inputArr.length;
 		quickSort(0, length - 1);
-	}
+	} 
 
 	private void quickSort(int lowerIndex, int higherIndex) {
 

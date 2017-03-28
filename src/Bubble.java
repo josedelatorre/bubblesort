@@ -2,7 +2,7 @@
 public class Bubble {
 
 	public static void main(String args[]) {
-
+		// By Sergio Pla
 		int array[] = { 5, 7, 2, 1, 9, 0, -4 };
 		System.out.println("Array ordenado por BunbleSort");
 		int arrayOrd[] = BubbleSort(array);
@@ -11,7 +11,7 @@ public class Bubble {
 		}
 		System.out.println();
 		System.out.println("Array ordenado por QuickShort");
-		arrayOrd=QuickSort.ordenar(array);
+		arrayOrd = QuickSort.ordenar(array);
 		for (int i = 0; i < arrayOrd.length; i++) {
 			System.out.print(arrayOrd[i] + ",");
 		}
